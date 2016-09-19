@@ -7,12 +7,18 @@ Live Streaming:
 rtsp://192.168.1.254/sjcam.mov
 
 MJPEG:
-???://192.168.1.254:8192
+http://192.168.1.254:8192
 
 Basic command format:
 http://192.168.1.254/?custom=1&cmd={CommandID}&par={OptionValue}"
 
 *** idea is to have a function that parses the YAML and builds python code with a function for each command
+
+*** basic functionalities to implement:
+- set date/time based on computers one
+- get informations
+- download
+- presets
 
 
 CommandID		Descr					Param values
