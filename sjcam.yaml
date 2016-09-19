@@ -1,0 +1,232 @@
+commands:
+    1001:
+      description: "Snap"
+      parameter:
+        - ??
+    1002:
+      description: "Image Size"
+      parameter:
+        - 12M (4032x3024)
+        - 10M (3648x2736)
+        - 8M (3264x2448)
+        - 5M (2592x1944)
+        - 3M (2048x1536)
+        - 2M HD (1920x1080)
+        - VGA (640x480)
+        - 1.3M (1280x960)
+    1003:
+      description: "Photos Left"
+    1004:
+      description: "Capture mode"
+      parameter:
+        - ??
+    1005:
+      description: "Quality"
+      parameter:
+        - ??
+    1006:
+      description: "Sharpness"
+      parameter:
+        - Strong
+        - Normal
+        - Soft
+    1007:
+      description: "White Balance"
+      parameter:
+        - Auto
+        - Daylight
+        - Cloudy
+        - Thungsten
+        - Fluorescent
+    1008:
+      description: "Color"
+      parameter:
+        - Colour
+        - B/W
+        - Sepia
+    1009:
+      description: "ISO"
+      parameter:
+        - auto
+        - 100
+        - 200
+        - 400
+    1011:
+      description: "Anti Shaking"
+      parameter:
+        - 'Off'
+        - 'On'
+    1012:
+      description: "Time Lapse"
+      parameter:
+        - 3s
+        - 5s
+        - 10s
+        - 20s
+    2001:
+      description: "Recording"
+      parameter:
+        - stop
+        - start
+    2002:
+      description: "Video Resolution"
+      parameter:
+        - Full HD (1920x1080)
+        - 720p60fps (1280x720)
+        - 720p30fps (1280x720)
+        - WVGA (848x480)
+        - VGA (640x480)
+    2003:
+      description: "Cyclic Record"
+      parameter:
+        - 'Off'
+        - 3 Minutes
+        - 5 Minutes
+        - 10 Minutes
+    2004:
+      description: "HDR"
+      parameter:
+        - 'Off'
+        - 'On'
+    2005:
+      description: "Exposure"
+      parameter:
+        - +2.0
+        - +5/3
+        - +4/3
+        - +1.0
+        - +2/3
+        - +1/3
+        - +0.0
+        - -1/3
+        - -2/3
+        - -1.0
+        -  -4/3
+        -  -5/3
+        -  -2.0
+    2006:
+      description: "Motion Detection"
+      parameter:
+        - 'Off'
+        - 'On'
+    2007:
+      description: "Audio"
+      parameter:
+        - 'Off'
+        - 'On'
+    2008:
+      description: "Date stamping"
+      parameter:
+        - 'Off'
+        - 'On'
+    2009:
+      description: "Remaining seconds for video"
+      parameter:
+        - 'Off'
+        - 'On'
+    2010:
+      description: "Live View Size"
+      parameter:
+        - ??
+    2019:
+      description: "Video Lapse"
+      parameter:
+        - 'Off'
+        - 1 Sec
+        - 2 Sec
+        - 5 Sec
+        - 10 Sec
+        - 30 Sec
+        - 1 Min
+    3001:
+      description: "Set Mode"
+      parameter:
+        - Photos
+        - Video
+        - Unknown
+        - Timed Video
+        - Timed Photos
+    3002:
+      description: "Get All Commands"
+      writeOnly: True
+    3003:
+      description: "WiFi SSID"
+      writeOnly: True
+    3004:
+      description: "WiFi Password"
+      writeOnly: True
+    3005:
+      description: "Set date (YYYY-MM-DD)"
+      writeOnly: True
+    3006:
+      description: "Set time (HH:MM:SS)"
+      writeOnly: True
+    3007:
+      description: "Auto Power Off"
+      parameter:
+        - 'Off'
+        - 3 Min
+        - 5 Min
+        - 10 Min
+        - Now
+    3008:
+      description: "Language"
+      parameter:
+        - English
+        - French
+        - Spanish
+        - Polish
+        - German
+        - Italian
+        - Unk1
+        - Unk2
+        - Russian
+        - Unk3
+        - Unk4
+        - Unk5
+        - Portuguese
+    3010:
+      description: "Format"
+      parameter:
+        - Cancel
+        - Ok
+    3011:
+      description: "Default Settings"
+      parameter:
+        - Cancel
+        - Ok
+    3012:
+      description: "Firmware Version"
+    3014:
+      description: "Dump Settings"
+    3015:
+      description: "Media file listing"
+    3016:
+      description: "Camera Status Mode"
+      ro: True
+      parameter:
+        - Video
+        - Photos
+        - Unknown
+        - Timed Videos
+        - Timed Photos
+    3017:
+      description: "Free Bytes 'On' SD"
+    3019:
+      description: "Battery Status"
+    3025:
+      description: "Frequency"
+      parameter:
+        - 50Hz
+        - 60Hz
+    3026:
+      description: "Rotate"
+      parameter:
+        - Normal
+        - UpsideDown
+    3027:
+      description: "Random Number"
+    3029:
+      description: "Get Non Working Link"
+    3030:
+      description: "FW Filename"

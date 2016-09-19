@@ -1,0 +1,249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"descr",
+				"description"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"exit",
+			"ls",
+			"glue",
+			"glue help",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andre/Src/projects/sjcam4000",
+		"/Users/andre/Src/projects/sjcam4000/sjcam"
+	],
+	"file_history":
+	[
+		"/Users/andre/Src/projects/sjcam4000/sjcam.yaml",
+		"/Users/andre/Src/sysops/scripts/usage2influxdb.py",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/andre/Src/projects/sjcam4000/sjcam4000.txt",
+		"/Users/andre/Src/projects/sjcam4000/sjcam.py",
+		"/Users/andre/Desktop/sjcam4000.txt",
+		"/Users/andre/Src/projects/sjcam4000/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/SublimeFiles/SublimeFiles.sublime-settings",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/SublimeFiles/Default (OSX).sublime-keymap",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/private/etc/zshrc",
+		"/Users/andre/Src/lockscreen.m",
+		"/Users/andre/usage2influxdb.py",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/SublimeFiles.sublime-settings",
+		"/Users/andre/Desktop/rsub.sublime-settings",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-otig3f/fill_mysql.py",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-so9cy6/fill_mysql.py",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/rsub/rsub.sublime-settings",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-wj6vpj/usage2influxdb.py",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-w4ktz7/pippo.txt",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-xh75e1/fill_mysql.py",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-y53q9s/usage2influxdb.py",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-hnemau/pippo.txt",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-svxoo7/haproxy.cfg",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-1c9owa/top.sls",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/Glue/messages/help.txt",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/termX/Default.sublime-keymap",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/User/termX.sublime-settings",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-pacq8d/top.sls",
+		"/Users/andre/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-e9neh2/fill_mysql.py",
+		"/var/folders/dc/n8zw14715414ntyzcjq4m91w0000gn/T/rsub-vejw3b/top.sls"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"caret_style",
+			"font",
+			"Monaco"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "sjcam.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "off",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_big_t",
+		"_vintageous_last_character_search": "i",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/andre/Src/sysops/scripts"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

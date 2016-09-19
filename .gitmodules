@@ -1,0 +1,3 @@
+[submodule "sjcam"]
+	path = sjcam
+	url = https://github.com/AdamLaurie/sjcam.git
