@@ -19,6 +19,9 @@ class sjcamCommand(object):
 
     @property
     def fn(self):
+        """
+        Return function name
+        """
         fnParts = self.description.split(' ')
         fnParts[0] = fnParts[0].lower()
         fnParts[1:] = [f.capitalize() for f in fnParts[1:]]
@@ -63,7 +66,15 @@ class sjcam(object):
 
     def __init__(self):
         super(sjcam, self).__init__()
+        print "parsing yaml"
+        yaml = open('sjcam.yaml', 'r')
+        commands = yaml.load(yaml)
 
+    def httpCall(self, method, cmdId, parameter):
+        data = {"custom": 1, "cmd": cmdId, "par": parameter}
+        r = requests.request(method=method, url=self.url, data=data )
+        if r.ok:
+            print r.reason
 
 if __name__ == "__main__":
     print "SJcam lib"
