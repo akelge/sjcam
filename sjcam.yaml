@@ -132,12 +132,12 @@ commands:
       description: "Video Lapse"
       parameter:
         - 'Off'
-        - 1 Sec
-        - 2 Sec
-        - 5 Sec
-        - 10 Sec
-        - 30 Sec
-        - 1 Min
+        - 1s
+        - 2s
+        - 5s
+        - 10s
+        - 30s
+        - 60s
     3001:
       description: "Set Mode"
       parameter:
@@ -148,7 +148,6 @@ commands:
         - Timed Photos
     3002:
       description: "Get All Commands"
-      writeOnly: True
     3003:
       description: "WiFi SSID"
       writeOnly: True
@@ -156,10 +155,12 @@ commands:
       description: "WiFi Password"
       writeOnly: True
     3005:
-      description: "Set date (YYYY-MM-DD)"
+      description: "Set Date"
+      format: "YYYY-MM-DD"
       writeOnly: True
     3006:
-      description: "Set time (HH:MM:SS)"
+      description: "Set Time"
+      format: "HH:MM:SS"
       writeOnly: True
     3007:
       description: "Auto Power Off"
@@ -203,7 +204,7 @@ commands:
       description: "Media file listing"
     3016:
       description: "Camera Status Mode"
-      ro: True
+      readOnly: True
       parameter:
         - Video
         - Photos
@@ -211,7 +212,7 @@ commands:
         - Timed Videos
         - Timed Photos
     3017:
-      description: "Free Bytes 'On' SD"
+      description: "Free Bytes On SD"
     3019:
       description: "Battery Status"
     3025:
