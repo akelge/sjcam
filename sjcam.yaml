@@ -1,8 +1,6 @@
 commands:
     1001:
-      description: "Snap"
-      parameter:
-        - ??
+      description: "Take photo"
     1002:
       description: "Image Size"
       parameter:
@@ -150,18 +148,16 @@ commands:
       description: "Get All Commands"
     3003:
       description: "WiFi SSID"
-      writeOnly: True
+      format: "[-a-zA-Z0-9]*"
     3004:
       description: "WiFi Password"
-      writeOnly: True
+      format: ".{8}.*"  # At least 8 characters
     3005:
       description: "Set Date"
-      format: "YYYY-MM-DD"
-      writeOnly: True
+      format: "[0-9]{4}-[0-9]{2}-[0-9]{2}"
     3006:
       description: "Set Time"
-      format: "HH:MM:SS"
-      writeOnly: True
+      format: "[0-9]{2}:[0-9]{2}:[0-9]{2}"
     3007:
       description: "Auto Power Off"
       parameter:
